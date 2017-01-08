@@ -1,0 +1,71 @@
+.aboutus{
+    background-color:#f8f8f8;
+    padding:100px 0;
+}
+.aboutus .container{
+    font-family:'Roboto Slab', serif;
+    font-size:14px;
+    color:#555;
+    margin-top:70px;
+    text-align:left;
+}
+.members-slider{
+    margin-top:70px;
+    text-align:center;
+    color:#555;
+    position:relative;
+}
+.members-slider li{
+    display:inline-block;
+    margin-left:28px;
+}
+.members-slider li:nth-child(1){
+    margin-left:0;
+}
+.member{
+    background:url('../img/members.png') no-repeat;
+    width:260px;
+    height:250px;
+    margin-bottom:20px;
+}
+.members-slider .name{
+    font-size:14px;
+    font-weight:600;
+}
+.members-slider .title{
+    margin-top:15px;
+    font-family:'Roboto Slab', serif;
+    font-size:13px;
+}
+.members-slider li:nth-child(2) .member{
+    background-position:-290px;
+}
+.members-slider li:nth-child(3) .member{
+    background-position:-580px;
+}
+.members-slider li:nth-child(4) .member{
+    background-position:-870px;
+}
+.angle{
+    font-size:27px;
+    display:inline-block;
+    position:absolute;
+    top:105px;
+    width:35px;
+    height:40px;
+    cursor:pointer;
+    background-color:#c2c2c2;
+    color:#555;
+}
+.angle:hover{
+    background-color:#c0301c;
+    color:#ddd;
+}
+.left{
+    left:0;
+    margin-left:3px;
+}
+.right{
+    right:0;
+    margin-right:3px;
+}
