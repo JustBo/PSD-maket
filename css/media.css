@@ -1,4 +1,8 @@
-
+@media only screen and (max-width: 1240px) {
+    .members-slider li:nth-child(n+4){
+        display:none;
+    }
+}
 @media only screen and (max-width: 1024px) {
     .meetup{
         margin-top:200px;
@@ -11,12 +15,22 @@
         display:inline-block;
     }
 }
+@media only screen and (max-width: 1000px){
+    .members-slider li:nth-child(3){
+        display:none;
+    }
+}
 @media only screen and (max-width: 620px) { 
     h1{
         font-size:39px;
     }
     h4{
         font-size:16px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .members-slider li:nth-child(2){
+        display:none;
     }
 }
 @media only screen and (max-width: 520px) {
@@ -36,9 +50,11 @@
     
 }
 
-
-
-
-
-@media only screen and (max-width: 1240px) {
+@media only screen and (min-width: 1240px) {
+    .members-slider li:nth-child(n+5){
+        display:none;
+    }
 }
+
+
+

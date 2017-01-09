@@ -14,6 +14,9 @@ header{
 .show{
     display:block;
 }
+.show-inline-block{
+    display:inline-block;
+}
 .menu ul{
     height:34px;
     list-style:none;

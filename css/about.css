@@ -37,13 +37,13 @@
     font-family:'Roboto Slab', serif;
     font-size:13px;
 }
-.members-slider li:nth-child(2) .member{
+.members-slider li[data-item="1"] .member{
     background-position:-290px;
 }
-.members-slider li:nth-child(3) .member{
+.members-slider li[data-item="2"] .member{
     background-position:-580px;
 }
-.members-slider li:nth-child(4) .member{
+.members-slider li[data-item="3"] .member{
     background-position:-870px;
 }
 .angle{
@@ -68,4 +68,7 @@
 .right{
     right:0;
     margin-right:3px;
+}
+.hide{
+    display:none;
 }
