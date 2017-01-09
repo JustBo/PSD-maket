@@ -1,0 +1,38 @@
+.paralax{
+    background:url('../img/paralax.png');
+    height:368px;
+    background-size:cover;
+    background-attachment:fixed;
+    position:relative;
+    text-align:center;
+    color:#fff;
+}
+.paralax .banner{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color:#c0301c;
+    opacity:0.6;
+}
+.paralax-content{
+    position:relative;
+    top:100px;
+}
+.paralax h1{
+    position:relative;
+    font-family:'Roboto Slab', serif;
+    font-size:30px;
+}
+.paralax-content span{
+    display:inline-block;
+    margin-top:30px;
+    font-size:18px;
+    border:2pt solid #fff;
+    border-radius:2px;
+    padding:15px 23px;
+    cursor:pointer;
+}
+.paralax-content span:hover{
+    background-color:#fff;
+    color:#c0301c;
+}

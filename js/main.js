@@ -30,4 +30,9 @@ $(function(){
         $('.menu li').toggleClass('show');
     });
     $('.angle').on('click',slider);
+    $('.works-items .item').hover( function(){
+        $(this).children().removeClass('hide');
+    }, function(){
+        $(this).children().addClass('hide');
+    });
 });

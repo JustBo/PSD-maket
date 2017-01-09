@@ -2,6 +2,11 @@
     .members-slider li:nth-child(n+4){
         display:none;
     }
+    .works-items .item{
+        width:305px;
+        height:271px;
+    }
+
 }
 @media only screen and (max-width: 1024px) {
     .meetup{
@@ -43,6 +48,14 @@
     .meetup{
         margin-top:140px;
         margin-bottom:100px;
+    }
+    .works ul{
+        font-size:14px;
+    }
+    .paralax h1{
+        position:relative;
+        font-family:'Roboto Slab', serif;
+        font-size:21px;
     }
 }
 
