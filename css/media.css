@@ -29,6 +29,11 @@
     .blog-content{
         margin-top:20px;
     }
+    .addres,
+    .hotline,
+    .mail{
+        display:inline-block;
+    }
 }
 @media only screen and (max-width: 620px) { 
     h1{
