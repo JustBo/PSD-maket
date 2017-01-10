@@ -35,4 +35,10 @@ $(function(){
     }, function(){
         $(this).children().addClass('hide');
     });
+
+    $('.blog-item').hover( function(){
+        $(this).find('.hover').addClass('red');
+    }, function(){
+        $(this).find('.hover').removeClass('red');
+    });
 });

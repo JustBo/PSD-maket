@@ -25,6 +25,11 @@
         display:none;
     }
 }
+@media only screen and (max-width: 991px){
+    .blog-content{
+        margin-top:20px;
+    }
+}
 @media only screen and (max-width: 620px) { 
     h1{
         font-size:39px;
@@ -58,9 +63,12 @@
         font-size:21px;
     }
 }
-
-@media only screen and (max-width: 920px) {
-    
+@media only screen and (max-width: 480px){
+    .blog-items .date{
+        float:none;
+        color:#777;
+        text-align:center;
+    }   
 }
 
 @media only screen and (min-width: 1240px) {
