@@ -38,6 +38,7 @@
     background:#c0301c;
     color:#fff;
     border:1pt solid #c0301c;
+    transition:0.4s;
 }
 .warn{
     padding-top:20px;
@@ -93,6 +94,7 @@ footer li{
 footer li:hover{
     background-color:#fff;
     color:#c0301c;
+    transition:0.5s;
 }
 footer h5{
     margin-top:23px;

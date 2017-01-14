@@ -8,6 +8,10 @@
     display:inline-block;
     cursor:pointer;
 }
+.works li:hover{
+    color:#c0301c;
+    transition:0.4s;
+}
 .works li:nth-child(n+1){
     margin-left:20px;
 }
@@ -26,7 +30,6 @@
 .works-items img{
     width:100%;
 }
-
 .work-info{
     background-color:#c0301c;
     height:100%;
@@ -60,7 +63,8 @@
 }
 .work-view:hover{
     background-color:#fff;
+    transition:0.4s;
 }
 .work-view:hover a{
-    color:#c0301c ;
+    color:#c0301c;
 }

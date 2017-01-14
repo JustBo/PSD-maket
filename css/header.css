@@ -31,6 +31,16 @@ header{
     font-size:14px;
     cursor:pointer;
 }
+.menu li a{
+    color:#fff;
+}
+.menu li:hover{
+    border-bottom:1px solid #fff;
+}
+.menu li a:focus,
+#start:focus{
+    text-decoration:none;
+}
 #hamb{
     display:none;
     cursor:pointer;
@@ -64,6 +74,7 @@ h4{
 #start:hover{
     background-color:#fff;
     color:#c0301c;
+    transition:0.8s;
 }
 a,
 a:active,
