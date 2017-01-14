@@ -4,24 +4,12 @@
 }
 .clients-logo li{
     display:inline-block;
-    width:160px;
-    height:50px;
-    background:url('../img/clients.png');
+    margin-top:10px;
 }
-.clients-logo li:nth-child(2){
-    background-position:-200px;
+.clients-logo li:nth-child(n+1){
+    margin-left:50px;
 }
-.clients-logo li:nth-child(3){
-    background-position:-400px;
-}
-.clients-logo li:nth-child(4){
-    background-position:-590px;
-}
-.clients-logo li:nth-child(5){
-    background-position:-775px;
-}
-.quote-item li{
-    display:none;
+.quote-item{
     width:65%;
     margin:0 auto;
     color:#555;
@@ -33,14 +21,24 @@
 .quotes .control{
     margin-top:45px;
 }
-.quotes .control li{
-    display:inline-block;
-    background-color:#ddd;
+.slick-dots{
+    position:static;
+    margin-top:30px;
+}
+.slick-dots li{
+    margin:0;
+}
+.slick-dots li button{
     width:13px;
     height:13px;
     border-radius:50%;
-    cursor:pointer;
-    margin-right:2px;
+    background-color:#ddd;
+}
+.slick-dots li.slick-active button{
+    background-color:#c0301c;
+}
+.slick-dots li button:before{
+    display:none;
 }
 .quotes-text{
     font-size:18px;
@@ -55,3 +53,11 @@
 .quotes .control .active{
     background-color:#c0301c;
 }
+/*display:inline-block;
+    background-color:#ddd;
+    width:13px;
+    height:13px;
+    border-radius:50%;
+    cursor:pointer;
+    margin-right:2px;
+    /*/

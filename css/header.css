@@ -20,7 +20,9 @@ header{
 .menu ul{
     height:34px;
     list-style:none;
-    float:right;
+}
+.nav-list{
+    text-align:right;
 }
 .menu li{
     display:inline-block;
@@ -31,7 +33,6 @@ header{
 }
 #hamb{
     display:none;
-    float:right;
     cursor:pointer;
     font-size:24px;
     margin-top:6px;
@@ -58,10 +59,11 @@ h4{
     margin-top:50px;
     padding:15px 25px;
     cursor:pointer;
+    color:#fff;
 }
 #start:hover{
-    color:#c0301c;
     background-color:#fff;
+    color:#c0301c;
 }
 a,
 a:active,
@@ -72,4 +74,8 @@ a:hover{
 }
 .clearfix{
     clear:both;
+}
+h1,h2,h3,h4,h5,h6,
+p,span,i{
+    cursor:default;
 }

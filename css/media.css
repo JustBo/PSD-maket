@@ -1,17 +1,16 @@
 @media only screen and (max-width: 1240px) {
-    .members-slider li:nth-child(n+4){
-        display:none;
-    }
     .works-items .item{
         width:305px;
         height:271px;
     }
-
 }
 @media only screen and (max-width: 1024px) {
     .meetup{
         margin-top:200px;
         margin-bottom:140px;
+    }
+    .menu li{
+        display:block;
     }
     .menu{
         display:none;
@@ -21,9 +20,7 @@
     }
 }
 @media only screen and (max-width: 1000px){
-    .members-slider li:nth-child(3){
-        display:none;
-    }
+
 }
 @media only screen and (max-width: 991px){
     .blog-content{
@@ -44,9 +41,7 @@
     }
 }
 @media only screen and (max-width: 600px){
-    .members-slider li:nth-child(2){
-        display:none;
-    }
+  
 }
 @media only screen and (max-width: 520px) {
     h1{
@@ -62,6 +57,7 @@
     .works ul{
         font-size:14px;
     }
+    
     .paralax h1{
         position:relative;
         font-family:'Roboto Slab', serif;
@@ -74,11 +70,37 @@
         color:#777;
         text-align:center;
     }   
+    .blog-title{
+        margin-left:0;
+        float:none;
+        text-align:center;
+    }
+    .clients-logo li{
+        display:block;
+    }
+    .clients-logo li:nth-child(n+1){
+        margin-left:0;
+    }
 }
-
-@media only screen and (min-width: 1240px) {
-    .members-slider li:nth-child(n+5){
-        display:none;
+@media only screen and (max-width: 340px){
+    h1{
+        line-height:1.5;
+    }
+    #start{
+        width:90%;
+    }
+    .works-items .item{
+        width:100%;
+    }
+    .paralax-content span{
+        width:80%;
+    }
+    .mail{
+        -ms-word-break: break-all;
+        word-break:break-all;
+    }
+    .form button{
+        width:100%;
     }
 }
 
