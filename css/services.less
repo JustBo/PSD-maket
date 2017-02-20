@@ -1,0 +1,52 @@
+@import "styles.less";
+article{
+    text-align:center;
+    margin-top:100px;
+    margin-bottom:100px;
+    h2{
+        font-size:20px;
+        font-weight:500;
+    }
+    h5{
+        margin-top:30px;
+        color:@grey;
+        font-size:16px;
+        font-family: 'Roboto Slab', serif;
+    }
+}
+.underline{
+    margin-top:30px;
+    display:inline-block;
+    width:50px;
+    border-bottom:2px solid @grey;
+    text-align:center;
+}
+.serv{
+    margin-top:50px;
+    text-align:center;
+    font-size:14px;
+    color:@grey;
+    .item{
+        display:inline-block;
+        margin-top:20px;
+    }
+    .image{
+        width:90px;
+        height:90px;
+        background:url('../img/services.png');
+        display:inline-block;
+    }
+    .desc{
+        margin-top:30px;
+        margin-bottom:25px;
+    }
+    .second{
+        background-position:90px;
+    }
+    .third{
+        background-position:191px;
+    }
+}   
+.item .content{
+    font-family: @roboto;
+}

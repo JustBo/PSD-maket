@@ -1,0 +1,101 @@
+.paralax{
+    background:url('../img/paralax.png');
+    height:368px;
+    background-size:cover;
+    background-attachment:fixed;
+    position:relative;
+    text-align:center;
+    color:#fff;
+}
+.paralax .banner{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color:#c0301c;
+    opacity:0.6;
+}
+.paralax-content{
+    position:relative;
+    top:100px;
+}
+.paralax h1{
+    position:relative;
+    font-family:'Roboto Slab', serif;
+    font-size:30px;
+}
+.paralax-content span{
+    display:inline-block;
+    margin-top:30px;
+    font-size:18px;
+    border:2pt solid #fff;
+    border-radius:2px;
+    padding:15px 23px;
+    cursor:pointer;
+}
+.paralax-content span:hover{
+    background-color:#fff;
+    color:#c0301c;
+    transition:0.4s;
+}
+.blog-items{
+    padding-top:30px;
+    text-align:left;
+}
+.blog-item{
+    margin:38px 0;
+    color:#555;
+}
+.blog-img img{
+    width:100%;
+}
+.blog-items .date{
+    float:left;
+    border:2pt solid #555;
+    padding:10px 20px;
+    color:#777;
+    text-align:center;
+}
+.blog-items .date span{
+    display:block;
+    font-weight:600;
+}
+.blog-items .date span:nth-child(1){
+    font-size:24px;
+}
+.blog-items .date span:nth-child(2){
+    margin-top:-3px;
+    font-size:14px;
+}
+.blog-title{
+    margin-left:30px;
+    float:left;
+}
+.blog-title h3{
+    font-size:16px;
+    margin-top:15px;
+}
+.blog-title i{
+    font-size:13px;
+    font-family:'Roboto Slab', serif;
+    color:#777;
+    margin-top:15px;
+    display:block;
+}
+.blog-text{
+    color:#555;
+    font-size:14px;
+    font-family:'Roboto Slab', serif;
+    margin-top:20px;
+}
+.blog-href{
+    margin-top:28px;
+}
+.blog-href a{
+    color:#555;
+    font-family:'Roboto Slab', serif;
+    font-weight:600;
+    font-size:13px;
+}
+.red{
+    color:#c0301c !important;
+}

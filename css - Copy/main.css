@@ -1,0 +1,56 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    color:#fff;
+    padding-top:40px;
+}
+#bg{
+    width:100%;
+    z-index:-22;
+    position:absolute;
+}
+.logo{
+    font-weight:700;
+    font-size:24px;
+}
+.menu ul{
+    height:34px;
+    list-style:none;
+    float:right;
+    
+}
+.menu li{
+    display:inline-block;
+    margin-top:6px;
+    margin-left:30px;
+    font-size:14px;
+    cursor:pointer;
+}
+.meetup{
+    text-align:center;
+    color:#fff;
+    margin-top:260px;
+}
+h1{
+    font-size:48px;
+    
+}
+h4{
+    margin-top:40px;
+    font-size:20px;
+}
+#start{
+    width:180px;
+    display:inline-block;
+    border:2pt solid #fff;
+    border-radius:2px;
+    font-size:16px;
+    margin-top:50px;
+    padding:15px 25px;
+    cursor:pointer;
+}
+#start:hover{
+    color:#c0301c;
+    background-color:#fff;
+}

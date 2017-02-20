@@ -1,0 +1,105 @@
+.contact{
+    margin-top:70px;
+    font-family:'Roboto Slab', serif;
+}
+.form{
+    color:#555;
+    text-align:left;
+}
+.form input{
+    width:100%;
+    margin:10px 0;
+    padding:10px 15px;
+}
+.form textarea{
+    width:100%;
+    height:100px;
+    margin-top:10px;
+    padding:10px 15px;
+    resize:none;
+}
+.form input,
+.form textarea,
+.form button{
+    border:1pt solid #555;
+    font-size:12px;
+}
+.form input:focus,
+.form textarea:focus{
+    outline: none;
+    border:1pt solid #c0301c;
+}
+.form button{
+    margin-top:20px;
+    padding:15px 35px;
+    background:none;
+}
+.form button:hover{
+    background:#c0301c;
+    color:#fff;
+    border:1pt solid #c0301c;
+    transition:0.4s;
+}
+.warn{
+    padding-top:20px;
+    display:inline-block;
+    margin-left:20px;
+    font-size:12px;
+}
+.contact aside{
+    text-align:left;
+}
+.addres,
+.hotline,
+.mail{
+    position:relative;
+    padding-left:30px;
+    margin-bottom:37px;
+}
+.contact aside i{
+    font-size:24px;
+    position:absolute;
+    left:0;
+}
+.contact aside h4,
+.contact aside p{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom:5px;
+}
+.contact aside h4{
+    font-size:14px;
+    margin:0 0 15px 0;
+}
+.contact aside p{
+    font-size:12px;
+}
+.white{
+    border:2px solid #fff;
+}
+footer{
+    background-color:#c0301c;
+    padding:100px 0;
+    text-align:center;
+    color:#fff;
+}
+footer li{
+    display:inline-block;
+    width:35px;
+    height:35px;
+    border:2pt solid #fff;
+    border-radius:50%;
+    margin-right:5px;
+    cursor:pointer;
+}
+footer li:hover{
+    background-color:#fff;
+    color:#c0301c;
+    transition:0.5s;
+}
+footer h5{
+    margin-top:23px;
+    font-size:12px;
+}
+footer li{
+    font-size:22px;
+}

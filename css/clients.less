@@ -1,0 +1,56 @@
+@import "styles.less";
+.clients{
+    background-color:#f8f8f8;
+    padding:97px 0;
+}
+.clients-logo li{
+    display:inline-block;
+    margin-top:10px;
+    &:nth-child(n+1){
+        margin-left:50px;
+    }
+}
+.quote-item{
+    width:65%;
+    margin:0 auto;
+    color:@grey;
+    .active{
+        display:block;
+    }
+}
+.quotes{
+    margin-top:58px;
+    font-family:@roboto;
+    .control{
+        margin-top:45px;
+        .active{
+            background-color:@red;
+        }
+    }
+}
+.slick-dots{
+    position:static;
+    margin-top:30px;
+    li{
+        margin:0;
+        button{
+            width:13px;
+            height:13px;
+            border-radius:50%;
+            background-color:#ddd;
+            &:before{
+                display:none;
+            }
+        }
+    }
+    li.slick-active button{
+        background-color:@red;
+    }
+}
+.quotes-text{
+    font-size:18px;
+}
+.quotes-auth{
+    font-size:20px;
+    margin-top:45px;
+}
