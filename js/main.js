@@ -2,15 +2,26 @@ $(function(){
 
     $('a[href^="#"').click( function() {
         if($(this).attr('class') === "scroll"){
-            var scroll_element = $(this).attr('href'); 
+            var scroll_element = $(this).attr('href');
         }
-        $('html, body').animate({ scrollTop:$(scroll_element).offset().top }, 900); 
+        $('html, body').animate({ scrollTop:$(scroll_element).offset().top }, 900);
         return false;
   });
 
     $('#hamb').on('click',function(){
-        $('.menu').toggleClass('show');
-        $('.menu').addClass('animated fadeInDown');
+        if($('.menu').hasClass('show')){
+            $('.menu').addClass('animated fadeOutRight').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                function(){
+                    $(this).removeClass('animated fadeOutRight');
+                    $('.menu').removeClass('show');
+                });
+        }else{
+          $('.menu').addClass('show');
+          $('.menu').addClass('animated fadeInRight').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+              function(){
+                  $(this).removeClass('animated fadeInRight');
+              });
+        }
     });
 
     $('.works li').on('click',function(){

@@ -1,4 +1,9 @@
 @import "styles.less";
+h1,h2,h3,h4,h5,h6,
+p,span,i{
+    cursor:default;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
     background-color:@white;
@@ -7,15 +12,24 @@ header{
     color:@white;
     padding-top:40px;
     background:url('../img/background.png') no-repeat;
+    overflow: hidden;
     .logo{
         font-weight:700;
         font-size:24px;
+        position: absolute;
         a{
           color:#fff;
           text-decoration: none;
-          cursor: pointer;
+          span{
+            cursor: pointer;
+          }
         }
+        cursor:pointer;
+        z-index:100;
     }
+}
+.nav{
+  padding:0 20px;
 }
 .show{
     display:block;
@@ -25,7 +39,6 @@ header{
 }
 .menu{
     ul{
-        height:34px;
         list-style:none;
     }
     li{
@@ -35,16 +48,24 @@ header{
         font-size:14px;
         cursor:pointer;
         a{
-            color:@white;;
-        }
-        &:hover{
-            border-bottom:1px solid @white;
+            color:@white;
+            padding:5px;
+            border-radius:2px;
+            &:hover{
+              color:@red;
+              background-color:@white;
+            }
         }
     }
 }
-
+.nav{
+  text-align: right;
+}
 .nav-list{
     text-align:right;
+    display:inline-block;
+    position:relative;
+    width:100%;
 }
 
 .menu li a:focus,
@@ -95,8 +116,4 @@ a:hover{
 }
 .clearfix{
     clear:both;
-}
-h1,h2,h3,h4,h5,h6,
-p,span,i{
-    cursor:default;
 }
