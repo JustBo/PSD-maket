@@ -14,10 +14,17 @@
     margin-top:30px;
 }
 .members-slider{
-    margin-top:70px;
-    text-align:center;
-    color:@grey;
-    position:relative;
+  margin-top:30px;
+  position:relative;
+  overflow: hidden;
+  ul{
+    white-space:nowrap;
+    position: relative;
+    li{
+      display:inline-block;
+      position: relative;
+    }
+  }
     .name{
         margin-top:20px;
         font-size:14px;
@@ -28,38 +35,37 @@
         font-family:@roboto;
         font-size:13px;
     }
+    .angle {
+      position:absolute;
+      display:inline-block;
+      padding:10px;
+      cursor:pointer;
+      z-index:100;
+      height:100%;
+      &:hover{
+        background-color:rgba(192, 47, 27, 0.73);
+        color:#ddd;
+        transition: 0.5s;
+      }
+      &#left{
+        left:0;
+      }
+      &#right{
+          right:0;
+      }
+      i{
+        cursor:pointer;
+        font-size:21px;
+        line-height:15;
+      }
+    }
 }
 .member img{
     display:inline-block;
     width:100%;
 }
 
-.members-slider 
-.angle{
-    z-index:100;
-    font-size:27px;
-    display:inline-block;
-    position:absolute;
-    top:105px;
-    width:35px;
-    height:40px;
-    cursor:pointer;
-    background-color:#c2c2c2;
-    color:@grey;
-}
-.angle i{
-    cursor:pointer;
-}
-.angle:hover{
-    background-color:#c0301c;
-    color:#ddd;
-}
-#left{
-    left:0;
-}
-#right{
-    right:0;
-}
+
 .hide{
     display:none;
 }
